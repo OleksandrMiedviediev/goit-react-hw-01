@@ -1,0 +1,26 @@
+.title{
+    width: 100%;
+    text-align: center;
+    border-radius: 6px;
+    border-collapse: separate;
+    border-spacing: 0px;
+}
+.thead{
+    color: white;
+    font-weight: bold;
+    background-color: black;
+}
+.tr:nth-child(1n) {
+    background: #f6f6f6;
+}
+.tr:nth-child(2n) {
+    background: #e6e6e6;
+}
+.td{
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    padding: 10px;
+}
+.td:last-child{
+    border-right: 1px solid black;
+}

@@ -1,0 +1,22 @@
+.content{
+    width: 80px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.image{
+    margin-bottom: 10px;
+}
+.title{
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.online{
+    color: green;
+}
+.ofline{
+    color: red;
+}
